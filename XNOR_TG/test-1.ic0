@@ -1,0 +1,22 @@
+* "simulator" "PrimeSim HSPICE"
+* "version" "X-2025.06 linux64"
+* "format" "HSP"
+* "rundate" "15:22:13 11/05/2025 "
+* "netlist" "test-1.sp "
+* "runtitle" "** test for xnor_tg gate"
+* time =  0.0000000e+00   
+* temperature =  2.5000000e+01   
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc= 1.0000000e-18   
+.nodeset
++ net1 = 8.9999945e-01   
++ net2 = 8.9999811e-01   
++ out = 8.9999911e-01   
++ vdd = 2.7129609e-03   
++ vdd! = 9.0000000e-01   
++ vss = 8.9904193e-01   
++ vss! = 0.0000000e+00   
++ w1 = 0.0000000e+00   
++ x1 = 0.0000000e+00   
+***   END: Saved Operating Point ***                     
