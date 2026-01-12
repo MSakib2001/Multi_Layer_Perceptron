@@ -1,0 +1,25 @@
+* "simulator" "PrimeSim HSPICE"
+* "version" "X-2025.06 linux64"
+* "format" "HSP"
+* "rundate" "13:30:34 10/13/2025 "
+* "netlist" "test.sp "
+* "runtitle" "* hspice testbench for and2 gate characterization"
+* time =  0.0000000e+00   
+* temperature =  2.5000000e+01   
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc= 1.0000000e-18   
+.nodeset
++ a = 0.0000000e+00   
++ b = 9.0000000e-01   
++ out1 = 7.5983934e-02   
++ out2 = 7.5983934e-02   
++ out3 = 7.5983934e-02   
++ out4 = 7.5983934e-02   
++ vdd = 9.0000000e-01   
++ y = 4.9870990e-01   
++ xdut.net15 = 4.9894013e-01   
++ xdut.net2 = 4.9781117e-01   
++ xdut.vdd! = 4.9781117e-01   
++ xdut.vss! = 4.9894013e-01   
+***   END: Saved Operating Point ***                     

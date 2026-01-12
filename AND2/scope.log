@@ -1,0 +1,40 @@
+Mdi:ArrangeIcons
+wm geometry . 900x785+-9+78
+Mdi:ArrangeIcons
+wm geometry . 900x785+-4+81
+Mdi:ArrangeIcons
+wm geometry . 900x785+16+95
+Mdi:ArrangeIcons
+wm geometry . 900x785+50+122
+Mdi:ArrangeIcons
+wm geometry . 900x785+92+158
+Mdi:ArrangeIcons
+wm geometry . 900x785+158+218
+Mdi:ArrangeIcons
+wm geometry . 900x785+200+260
+Mdi:ArrangeIcons
+wm geometry . 900x785+240+302
+Mdi:ArrangeIcons
+wm geometry . 900x785+282+344
+Mdi:ArrangeIcons
+wm geometry . 900x785+318+384
+Mdi:ArrangeIcons
+wm geometry . 900x785+342+411
+Mdi:ArrangeIcons
+wm geometry . 900x785+355+424
+Mdi:ArrangeIcons
+wm geometry . 900x785+360+431
+Mdi:ArrangeIcons
+wm geometry . 900x785+361+432
+ScopeSigMgr:loadpffile /filespace/m/msakib/ece555/ECE555/AND2/test.tr0 1 openonly
+# PF:1
+wm geometry .sigmgr._PF:1 290x358+1920+1080
+pf:read PF:1 v(a) v(y)
+# WF:1:1 WF:1:2
+Graph addsignal {WF:1:1 WF:1:2} -region {new new} -yview {real(y) real(y)} -xview {real(x) real(x)} -tracehi {2 2}
+# Signal0 Signal1
+pf:read PF:1 v(out1) v(out2) v(out3) v(out4)
+# WF:1:3 WF:1:4 WF:1:5 WF:1:6
+Graph addsignal {WF:1:3 WF:1:4 WF:1:5 WF:1:6} -region {new new new new} -yview {real(y) real(y) real(y) real(y)} -xview {real(x) real(x) real(x) real(x)} -tracehi {2 2 2 2}
+# Signal2 Signal3 Signal4 Signal5
+Mdi:FullSize

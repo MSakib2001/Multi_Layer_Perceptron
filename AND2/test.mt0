@@ -1,0 +1,6 @@
+$DATA1 SOURCE='PrimeSim HSPICE' VERSION='X-2025.06 linux64' PARAM_COUNT=0
+.TITLE '* hspice testbench for and2 gate characterization'
+ tlh_a_y          thl_a_y          trise_y_from_a   tfall_y_from_a  
+ temper           alter#          
+    failed           failed           failed           failed       
+  2.5000e+01      1               
