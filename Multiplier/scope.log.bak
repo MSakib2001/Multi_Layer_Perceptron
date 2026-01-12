@@ -1,0 +1,34 @@
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry . 900x785+8+85
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:loadpffile /filespace/r/rmwhite4/ece555/ECE555/Multiplier/test-multi.tr0 1 openonly
+# PF:1
+wm geometry .sigmgr._PF:1 232x242+768+480
+pf:read PF:1 v(x1) v(x0) v(w1) v(w0) v(n<0>) v(n<1>)
+# WF:1:1 WF:1:2 WF:1:3 WF:1:4 WF:1:5 WF:1:6
+Graph addsignal {WF:1:1 WF:1:2 WF:1:3 WF:1:4 WF:1:5 WF:1:6} -region {new new new new new new} -yview {real(y) real(y) real(y) real(y) real(y) real(y)} -xview {real(x) real(x) real(x) real(x) real(x) real(x)} -tracehi {2 2 2 2 2 2}
+# Signal0 Signal1 Signal2 Signal3 Signal4 Signal5
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry .sigmgr._PF:1 232x242+1161+260
+Mdi:ArrangeIcons
+wm geometry . 1536x860+0+23
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry . 1536x860+8+31
+Mdi:ArrangeIcons
+wm geometry . 1536x860+0+23
+Mdi:ArrangeIcons
+wm geometry . 1536x860+8+31
+Mdi:ArrangeIcons
+wm geometry . 1536x860+0+23
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons

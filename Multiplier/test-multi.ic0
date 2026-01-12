@@ -1,0 +1,27 @@
+* "simulator" "PrimeSim HSPICE"
+* "version" "X-2025.06 linux64"
+* "format" "HSP"
+* "rundate" "19:04:23 11/05/2025 "
+* "netlist" "test-multi.sp "
+* "runtitle" "** test for 4-input multiplier"
+* time =  0.0000000e+00   
+* temperature =  2.5000000e+01   
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc= 1.0000000e-18   
+.nodeset
++ n<0> = 2.2963060e-07   
++ n<1> = 4.2260359e-08   
++ net12 = 8.9999888e-01   
++ net3 = 8.9999991e-01   
++ vdd! = 9.0000000e-01   
++ vss! = 0.0000000e+00   
++ w0 = 0.0000000e+00   
++ w1 = 0.0000000e+00   
++ x0 = 0.0000000e+00   
++ x1 = 0.0000000e+00   
++ xi0.net11 = 3.1668957e-02   
++ xi2.net1 = 8.9999933e-01   
++ xi2.net2 = 8.9999978e-01   
++ xi3.net2 = 8.6401189e-01   
+***   END: Saved Operating Point ***                     

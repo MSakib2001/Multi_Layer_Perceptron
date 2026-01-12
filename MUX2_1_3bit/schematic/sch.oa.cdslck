@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      kcbartel
+HostName                       linux-2616.cae.wisc.edu
+ProcessIdentifier              119529
+ProcessCreationTime_UTC        1765484429
+ProcessCreationTime_Readable   Thu Dec 11 14:20:29 2025 CST
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /groupspace/shared/e/ece555-project5/ece555/ECE555_shared_optimized/MUX2_1_3bit/schematic/sch.oa.cdslck
+TimeEditLocked                 Thu Dec 11 14:24:19 2025 CST

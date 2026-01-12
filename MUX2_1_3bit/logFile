@@ -1,0 +1,24 @@
+header
+"PSFversion" "1.00"
+"simulator" "HSPICE"
+"version" "X-2025.06 linux64"
+"rundate" "02:21:20 11/21/2025 "
+"runtitle" "* ================================================================"
+"runtype" "logFile"
+TYPE
+"analysisInst" STRUCT(
+"analysisType" STRING *
+"dataFile" STRING *
+"format" STRING *
+"parent" STRING *
+"sweepVariable" ARRAY ( * ) STRING *
+"description" STRING * )
+VALUE
+"summary" "analysisInst" ( 
+"Summary Information"
+"MUX2_1_3bit_test.su0"
+"PSF"
+""
+()
+"Summary Information"
+)

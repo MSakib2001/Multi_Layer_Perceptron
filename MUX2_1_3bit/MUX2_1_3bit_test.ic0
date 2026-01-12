@@ -1,0 +1,27 @@
+* "simulator" "PrimeSim HSPICE"
+* "version" "X-2025.06 linux64"
+* "format" "HSP"
+* "rundate" "04:19:13 11/21/2025 "
+* "netlist" "MUX2_1_3bit_test.sp "
+* "runtitle" "* ====================================================================="
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ a_0 =   0.            
++ a_1 =   0.            
++ a_2 =   0.            
++ vdd = 900.0000m       
++ vss =   0.            
++ y_0 = 229.6345n       
++ y_1 = 229.6345n       
++ y_2 =   6.0896n       
++ xdut.net2 = 899.9999m       
++ xdut.xi12.net15 = 861.3893m       
++ xdut.xi12.net2 = 899.9997m       
++ xdut.xi11.net15 = 861.3893m       
++ xdut.xi11.net2 = 899.9997m       
++ xdut.xi13.net9 = 900.0000m       
+***   END: Saved Operating Point ***                     
