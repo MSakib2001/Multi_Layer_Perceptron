@@ -97,5 +97,5 @@ The MLP is implemented with **modular digital blocks**, each tested individually
 ---
 
 **Team:** M Sadman Sakib, Rex White, Munasib Ilham, Kyle Bartel  
-**Course:** ECE 555 – Advanced Digital Design [Professor Umit Ogras] 
+**Course:** ECE 555 – DIGITAL CIRCUITS AND COMPONENTS; [Professor Umit Ogras]
 **Institution:** [University of Wisconsin-Madison]
