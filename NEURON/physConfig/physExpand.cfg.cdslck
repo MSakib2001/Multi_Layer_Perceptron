@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      rmwhite4
+HostName                       tux-115.cae.wisc.edu
+ProcessIdentifier              1321049
+ProcessCreationTime_UTC        1764110816
+ProcessCreationTime_Readable   Tue Nov 25 16:46:56 2025 CST
+AppIdentifier                  /cae/apps/data/cadence-2025/installs/IC231/tools.lnx86/dfII/bin/64bit/virtuoso
+OSType                         lnx86
+ReasonForPlacingEditLock       
+FilePathUsedToEditLock         /groupspace/shared/e/ece555-project5/ece555/ECE555_shared_library/NEURON/physConfig/physExpand.cfg
+TimeEditLocked                 Tue Nov 25 20:17:16 2025 CST

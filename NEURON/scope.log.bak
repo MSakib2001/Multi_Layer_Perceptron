@@ -1,0 +1,69 @@
+ScopeSigMgr:loadpffile /groupspace/shared/e/ece555-project5/ece555/ECE555_shared_optimized/NEURON/neuron-test2.tr0 1 openonly
+# PF:1
+wm geometry .sigmgr._PF:1 290x358+1920+1080
+pf:read PF:1 v(x0<0>) v(x0<1>) v(x1<0>) v(x1<1>) v(z<0>) v(z<1>) v(z<2>)
+# WF:1:1 WF:1:2 WF:1:3 WF:1:4 WF:1:5 WF:1:6 WF:1:7
+Graph addsignal {WF:1:1 WF:1:2 WF:1:3 WF:1:4 WF:1:5 WF:1:6 WF:1:7} -region {new new new new new new new} -yview {real(y) real(y) real(y) real(y) real(y) real(y) real(y)} -xview {real(x) real(x) real(x) real(x) real(x) real(x) real(x)} -tracehi {2 2 2 2 2 2 2}
+# Signal0 Signal1 Signal2 Signal3 Signal4 Signal5 Signal6
+Mdi:ArrangeIcons
+wm geometry . 907x796+-10+77
+Mdi:ArrangeIcons
+wm geometry . 911x803+-10+77
+Mdi:ArrangeIcons
+wm geometry . 923x817+-10+77
+Mdi:ArrangeIcons
+wm geometry . 927x822+-10+77
+Mdi:ArrangeIcons
+wm geometry . 936x832+-10+77
+Mdi:ArrangeIcons
+wm geometry . 945x843+-10+77
+Mdi:ArrangeIcons
+wm geometry . 961x860+-10+77
+Mdi:ArrangeIcons
+wm geometry . 990x888+-10+77
+Mdi:ArrangeIcons
+wm geometry . 1030x930+-10+77
+Mdi:ArrangeIcons
+wm geometry . 1074x974+-10+77
+Mdi:ArrangeIcons
+wm geometry . 1108x1010+-10+77
+Mdi:ArrangeIcons
+wm geometry . 1134x1038+-10+77
+Mdi:ArrangeIcons
+wm geometry . 1143x1050+-10+77
+Mdi:ArrangeIcons
+wm geometry . 1161x1071+-10+77
+Mdi:ArrangeIcons
+wm geometry . 1191x1106+-10+77
+Mdi:ArrangeIcons
+wm geometry . 1227x1142+-10+77
+Mdi:ArrangeIcons
+wm geometry . 1256x1168+-10+77
+Mdi:ArrangeIcons
+wm geometry . 1273x1184+-10+77
+Mdi:ArrangeIcons
+wm geometry . 1288x1201+-10+77
+Mdi:ArrangeIcons
+wm geometry . 1309x1226+-10+77
+Mdi:ArrangeIcons
+wm geometry . 1339x1260+-10+77
+Mdi:ArrangeIcons
+wm geometry . 1371x1290+-10+77
+Mdi:ArrangeIcons
+wm geometry . 1399x1310+-10+77
+Mdi:ArrangeIcons
+wm geometry . 1450x1351+-10+77
+Mdi:ArrangeIcons
+wm geometry . 1496x1385+-10+77
+Mdi:ArrangeIcons
+wm geometry . 1546x1421+-10+77
+Mdi:ArrangeIcons
+wm geometry . 1581x1447+-10+77
+Mdi:ArrangeIcons
+wm geometry . 1597x1455+-10+77
+Mdi:ArrangeIcons
+wm geometry . 1601x1458+-10+77
+Mdi:ArrangeIcons
+wm geometry . 1602x1458+-10+77
+Mdi:Resize 1401 1318
+Mdi:Move 5 5
